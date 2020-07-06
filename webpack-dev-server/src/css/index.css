@@ -1,0 +1,26 @@
+body {
+  background: rgb(65, 3, 3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-size: 40px;
+  text-align: center;
+  border: 1px solid black;
+  font-family: Fira Code;
+  color: rgb(112, 236, 11);
+  animation: 1600ms corazon infinite;
+}
+
+@keyframes corazon {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    text-replace: scale(1.1);
+  }
+}
