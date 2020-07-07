@@ -1,0 +1,14 @@
+body {
+  background: rgb(65, 3, 3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-size: 40px;
+  text-align: center;
+  border: 1px solid black;
+  font-family: Fira Code;
+  color: rgb(112, 236, 11);
+  animation: 3000ms corazon infinite;
+}
